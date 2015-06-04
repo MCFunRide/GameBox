@@ -1,0 +1,8 @@
+os.loadAPI("/apis/graphix")
+graphix.bgColor(colors.white)
+term.setTextColor(colors.black)
+graphix.centerSlowPrint(5,"Aperture GameBox")
+graphix.centerSlowPrint(6,"The Next-Gen Console Era")
+graphix.centerSlowPrint(7,"Starts here.")
+sleep(3)
+shell.run("/startgui")
