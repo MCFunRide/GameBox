@@ -1,0 +1,5 @@
+term.clear()
+term.setCursorPos(1,1)
+print("CubeSpace/Spectrum, this is your share of the deal.")
+sleep(3)
+shell.run("/startgui")
