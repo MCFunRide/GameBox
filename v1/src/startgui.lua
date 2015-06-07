@@ -21,6 +21,8 @@ while true do
     shell.run("games")
   elseif y == 5 then
     if fs.exists("/disk/.game") then
+      term.setBackgroundColor(colors.black)
+      term.clear()
       shell.run("/disk/.game")
     else
       shell.run("/startgui")
